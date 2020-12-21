@@ -1,3 +1,3 @@
 # CSS GRID
 
-### 1.Grid Fundamentals [link]("/grid-fundamentals")
+### [1.Grid Fundamentals](/grid-fundamentals)
