@@ -9,3 +9,5 @@
 ### [4.Sizing tracks in Css Gird](/sizing-tracks)
 
 ### [5.Repeat function](/use-repeat-function)
+
+### [6.Sizing Grid Items](/sizing-grid-items)
