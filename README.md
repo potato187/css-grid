@@ -19,3 +19,5 @@
 ### [9.auto-fit and auto-fill](/auto-fit-and-auto-fill)
 
 ### [10. MinMax function](/min-max)
+
+### [11.Templates areas](/template-areas)
