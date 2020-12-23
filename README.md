@@ -11,3 +11,5 @@
 ### [5.Repeat function](/use-repeat-function)
 
 ### [6.Sizing Grid Items](/sizing-grid-items)
+
+### [7.Placing Grid Items](/placing-grid-items)
