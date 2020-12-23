@@ -13,3 +13,6 @@
 ### [6.Sizing Grid Items](/sizing-grid-items)
 
 ### [7.Placing Grid Items](/placing-grid-items)
+
+### [8.Spanning-and-placing-cardio](/spanning-and-placing-cardio)
+
