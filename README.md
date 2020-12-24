@@ -23,3 +23,5 @@
 ### [11.Templates areas](/template-areas)
 
 ### [12.Naming lines](/naming-lines)
+
+### [13.Block Fitting](/block-fitting)
