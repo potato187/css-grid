@@ -30,4 +30,4 @@
 
 ### [15. Nesting Grid width Album layouts](/album-layouts)
 
-### [16.Image Gallery](/images-gallery)
+### [16.Image Gallery](/image-gallery)
