@@ -21,3 +21,5 @@
 ### [10. MinMax function](/min-max)
 
 ### [11.Templates areas](/template-areas)
+
+### [12.Naming lines](/naming-lines)
