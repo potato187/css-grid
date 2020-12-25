@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Unknown Number Of Items</title>
+  </head>
+  <style>
+    .addItem {
+      outline: 0;
+      border: 0;
+      padding: 10px 20px;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .unknown {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 20px;
+    }
+  </style>
+  <body>
+    <button class="addItem">Add</button>
+    <div class="unknown">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+
+    <script>
+      const Items = document.querySelector(".unknown");
+      const addButton = document.querySelector("button.addItem");
+
+      function addItem() {
+        Items.innerHTML += `<div class="item">${++Items.childElementCount}</div>`;
+      }
+
+      addButton.addEventListener("click", addItem);
+    </script>
+  </body>
+</html>

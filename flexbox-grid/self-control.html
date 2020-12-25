@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Self Control</title>
+  </head>
+
+  <style>
+    .corners {
+      margin: 0 auto;
+      display: grid;
+      height: 200px;
+      width: 200px;
+      border: 10px solid var(--yellow);
+      grid-template: 1fr 1fr / 1fr 1fr;
+      align-items: end;
+      justify-items: end;
+    }
+
+    .corner:nth-child(1),
+    .corner:nth-child(2) {
+      align-self: start;
+    }
+
+    .corner:nth-child(1),
+    .corner:nth-child(3) {
+      justify-self: start;
+    }
+
+    .fCorners {
+      margin: 100px auto 0;
+      border: 10px solid #000;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .top {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bottom {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div class="corners">
+      <div class="corner item">1</div>
+      <div class="corner item">Tow</div>
+      <div class="corner item">3</div>
+      <div class="corner item">4</div>
+    </div>
+
+    <div class="fCorners">
+      <div class="top">
+        <div class="fCorner item">1</div>
+        <div class="fCorner item">Tow</div>
+      </div>
+      <div class="bottom">
+        <div class="fCorner item">3</div>
+        <div class="fCorner item">4</div>
+      </div>
+    </div>
+  </body>
+</html>

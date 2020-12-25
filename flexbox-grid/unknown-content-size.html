@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Unknown Content Size</title>
+  </head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, auto);
+      grid-auto-flow: column;
+      justify-content: center;
+      grid-gap: 20px;
+    }
+    .known {
+      margin: 100px 0;
+    }
+  </style>
+  <body>
+    <div class="container know">
+      <div class="item">Short</div>
+      <div class="item">Longer</div>
+      <div class="div item">
+        <img src="https://source.unsplash.com/300x200" alt="" />
+      </div>
+      <div class="item">💩</div>
+    </div>
+  </body>
+</html>

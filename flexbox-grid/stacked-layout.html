@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Stacked Layout</title>
+  </head>
+
+  <style>
+    .stacked {
+      display: grid;
+      grid-template-columns: repeat(3, 30%);
+      row-gap: 20px;
+      justify-content: space-around;
+    }
+
+    .flex {
+      margin: 50px auto 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .flex .item {
+      background: #000;
+      color: #fff;
+    }
+
+    .flex > * {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <div class="stacked">
+      <div class="item box1">1</div>
+      <div class="item box2">2</div>
+      <div class="item box3">3</div>
+      <div class="item box4">4</div>
+      <div class="item box5">5</div>
+    </div>
+
+    <div class="flex">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </body>
+</html>

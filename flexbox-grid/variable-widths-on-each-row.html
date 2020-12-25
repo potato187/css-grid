@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <title>Variable Widths On Each Row</title>
+  </head>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid #000;
+    }
+
+    .flex-container * {
+      flex: 1;
+    }
+  </style>
+  <body>
+    <div class="flex-container">
+      <div class="item">Short</div>
+      <div class="item">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+        voluptas corrupti.
+      </div>
+      <div class="item">😊</div>
+      <div class="item">This is many words</div>
+      <div class="item">Hi, i am 😃</div>
+      <div class="item">🥰</div>
+      <div class="item">Snickers😇</div>
+      <div class="item">Wes Is Cool</div>
+      <div class="item">🍔</div>
+    </div>
+  </body>
+</html>
