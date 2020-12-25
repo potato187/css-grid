@@ -36,6 +36,6 @@
 
 ### [18.Recreating Codepen](/codepen)
 
-### [19.Bootstrap Grid width CSS Variables]
+### [19.Bootstrap Grid width CSS Variables](/bootstrap-grid)
 
 ### [20.Responsive Website](/responsive-website)
