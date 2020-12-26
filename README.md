@@ -39,3 +39,5 @@
 ### [19.Bootstrap Grid width CSS Variables](/bootstrap-grid)
 
 ### [20.Responsive Website](/responsive-website)
+
+### [21.Full bleed blog layout](/full-bleed-blog-layout)
